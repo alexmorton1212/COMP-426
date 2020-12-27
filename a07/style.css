@@ -1,0 +1,15 @@
+
+.text-center {
+    text-align: center;
+}
+
+.score{
+    text-align: center;
+    color: green;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.box{
+    background-color: black;
+}

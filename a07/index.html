@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        2048 Remake
+    </title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="engine/controller.js" type="module"></script>
+    <script src="engine/game.js" type="module"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+
+<body class="has-background-light">
+
+    <br>
+    <p class="title has-text-centered" style="font-size: 400%;">
+        2048
+    </p>
+    <br>
+    <p class="title has-text-centered" style="font-size: 150%;">
+        Combine tiles using the arrow keys. Try to get a tile with 2048 to WIN!
+    </p>
+    <p class="score"></p>
+    <p class="notification has-text-centered has-text-weight-bold" style="color:black; font-size: 100%">
+        You're doing great! :)
+    </p>
+
+    <div class="text-center">
+        <button class="reset button has-text-centered" style="color:white; background-color: rgb(87, 86, 86);">Reset</button>
+    </div>
+
+    <br>
+
+    <div class="board">
+        <div class="columns is-multiline justify-center">
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="1"></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="2"></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="3"></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="4"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-multiline justify-center">
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="5"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="6"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="7"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="8"></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-multiline justify-center">
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="9"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="10"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="11"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="12"></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-multiline justify-center">
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="13"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="14"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="15"></p>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="incolumn box">
+                    <p class="16"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+</body>
+
+</html>
