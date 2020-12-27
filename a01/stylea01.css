@@ -1,0 +1,141 @@
+h1 {
+    text-align: center;
+    font: 3em Arial Neue, Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    padding: 20px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+button {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.heading {
+  letter-spacing: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.heading2 {
+  padding: 5px;
+  text-align: center;
+  font: 1.5em Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* BUTTON FORMATTING */
+
+.buttonalign {
+  text-align: center;
+  padding: 10px;
+}
+
+.buttonalign button {
+  background-color: black;
+  margin-left: 20px;
+}
+
+.buttonalign button:hover {
+  background-color: grey
+}
+
+.buttonalign button p {
+  color: rgb(255, 255, 255);
+  text-align: center; 
+  font: 1.4em Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+/* NAVIGATION BAR */
+
+.navbarblack {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+  
+.navbar {
+  height: 50px;
+  width: 100%;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 7px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbarblack a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #a8a8a8;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+  
+.navbarblack a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+  
+/* ID SELECTORS */
+
+#emphasis {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* COLUMNS */
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+}
+
+.centerphoto {
+  text-align: center;
+}
+
+/* npx browser-sync start -sw */
